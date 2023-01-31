@@ -1,6 +1,6 @@
 {
   "name": "generate-dad-jokes",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "always provides you with a new dad joke",
   "main": "index.js",
   "scripts": {
