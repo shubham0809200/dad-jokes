@@ -1,5 +1,5 @@
 {
-  "name": "@i.shubham.kr/dad-jokes",
+  "name": "generate-dad-jokes",
   "version": "1.0.2",
   "description": "always provides you with a new dad joke",
   "main": "index.js",

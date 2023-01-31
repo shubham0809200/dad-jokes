@@ -1,4 +1,4 @@
-// async function dadJokes() {
+// async function generateDadJokes() {
 //   try {
 //     const response = await fetch('https://icanhazdadjoke.com/slack')
 //     const json = await response.json()
@@ -10,7 +10,7 @@
 
 const https = require('https')
 
-function dadJokes() {
+function generateDadJokes() {
   return new Promise((resolve, reject) => {
     https
       .get('https://icanhazdadjoke.com/slack', (res) => {
@@ -35,7 +35,7 @@ function dadJokes() {
   })
 }
 
-dadJokes()
+generateDadJokes()
   .then((joke) => {
     console.log(joke)
   })
@@ -43,4 +43,4 @@ dadJokes()
     console.error(error)
   })
 
-module.exports = dadJokes
+module.exports = generateDadJokes
