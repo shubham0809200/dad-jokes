@@ -1,0 +1,25 @@
+{
+  "name": "@i.shubham.kr/dad-jokes",
+  "version": "1.0.1",
+  "description": "always provides you with a new dad joke",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubham0809200/dad-jokes.git"
+  },
+  "keywords": [
+    "jokes",
+    "dad jokes",
+    "funny",
+    "fun"
+  ],
+  "author": "Shubham Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubham0809200/dad-jokes/issues"
+  },
+  "homepage": "https://github.com/shubham0809200/dad-jokes#readme"
+}
